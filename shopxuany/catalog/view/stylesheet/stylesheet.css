@@ -1,20 +1,54 @@
 a {
-  color: #f45511;
+  color: #b44194;
+  text-decoration: none;
 }
+
 #menu {
-  background-color: #f45511;
-  background-image: linear-gradient(to bottom, #f45511, #f45511);
+  background-color: #f4c1f5;
+  background-image: linear-gradient(to bottom, #b44194, #8e3175);
   background-repeat: repeat-x;
-  border: 1px solid #f45511;
-  border-color: #f45511;
+  border: 1px solid #8e3175;
+  border-color: #8e3175 #8e3175 #591c49;
   min-height: 40px;
   border-radius: 4px;
 }
 
+#menu .dropdown-inner ul li a:hover {
+  color: #ffffff;
+  background-image: linear-gradient(to bottom, #b44194, #8e3175);
+}
+
+#menu .see-all:hover, #menu .see-all:focus {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #f4c1f5;
+  background-image: linear-gradient(to bottom, #b44194, #8e3175);
+  background-repeat: repeat-x;
+}
+
 .btn-primary {
   color: #ffffff;
-  text-shadow: none;
-  background-image: linear-gradient(to bottom, #f45511, #f45511);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-image: linear-gradient(to bottom, #b44194, #8e3175);
   background-repeat: repeat-x;
-  border-color: #f45511;
+  border-color: #8e3175 #8e3175 #591c49;
+}
+
+.btn-link {
+  border-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  color: #b44194;
+  border-radius: 0;
+}
+
+/* BS4 Changes */
+.navbar-light .navbar-toggler {
+  font-size: 15px;
+  font-stretch: expanded;
+  color: #FFF;
+  padding: 6px 12px;
+  background-color: #f4c1f5;
+  background-image: linear-gradient(to bottom, #b44194, #8e3175);
+  background-repeat: repeat-x;
+  border-color: #8e3175 #8e3175 #591c49;
 }
