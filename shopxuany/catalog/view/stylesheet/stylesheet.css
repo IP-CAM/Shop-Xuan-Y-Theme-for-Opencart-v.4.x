@@ -41,7 +41,6 @@ a {
   border-radius: 0;
 }
 
-/* BS4 Changes */
 .navbar-light .navbar-toggler {
   font-size: 15px;
   font-stretch: expanded;
@@ -51,4 +50,11 @@ a {
   background-image: linear-gradient(to bottom, #b44194, #8e3175);
   background-repeat: repeat-x;
   border-color: #8e3175 #8e3175 #591c49;
+}
+
+.list-group-item.active {
+  z-index: 2;
+  color: #fff;
+  background-color: #b44194;
+  border-color: #8e3175;
 }
