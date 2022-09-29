@@ -3,6 +3,10 @@ a {
   text-decoration: none;
 }
 
+#logo img {
+  max-width: 400px;
+}
+
 #menu {
   background-color: #f4c1f5;
   background-image: linear-gradient(to bottom, #b44194, #8e3175);
